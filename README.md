@@ -83,15 +83,7 @@ Fifth section tag with class name contact
 Define Description and Event Categories
 Inside the section tag with class name description, add a <p> tag and a button tag. In the <p> tag, insert text related to the event planning theme. Assign the class name get-started-button to the button tag.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
+
  <section className="description">
                 <p>
                     Plan and organize your events effortlessly with Event Planner. From
@@ -108,15 +100,6 @@ Note: If the page is already open in the browser, you will need to refresh it
 
 Next you need to create multiple events categories inside section tag with class name events_categories.For this create <ul> tag inside this section. Inside <ul> tag you should have a <h1> tag for event heading and multiple <li> tags for different categories of that particular event.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
 <ul>
  <h2>Social Events:</h2>
  <li>Birthday parties</li>
@@ -129,35 +112,7 @@ Next you need to create multiple events categories inside section tag with class
 Copied!
 You can also include multiple <ul> tags for different event headings and sub categories just as above.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
+
             <section className="events_categories">
                 <ul>
                     <h2>Social Events:</h2>
@@ -276,15 +231,7 @@ Now, create a contact section so that any visitor to the webpage can easily reac
 
 For this again you can have one <h2> tag and one <form> tag with multiple input boxes and a <button> tag inside section tag with class name contact.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
+
 <section className="contact">
                 <h2>Contact Us</h2>
                 <form>
@@ -300,89 +247,7 @@ Now re-run the application again in the terminal and ceck the output. The output
 
 
 Click here for the entire code of EventPlanner.jsx component
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
+
   import React from 'react';
   import './EventPlanner.css'; // Import CSS file for styling
  const EventPlanner = () => {
@@ -499,9 +364,7 @@ Include Footer.jsx component as last tag of div with class name event-planner-co
 Hint: Use import keyword to include Footer component as child at the top in parent EventPlanner component.
 
 Click here for the solution
-1
-2
-3
+
      import Footer from './Footer';
 // include Footer component as attribute as below
 <Footer/>
@@ -512,87 +375,7 @@ Copied!
 Note: To see the latest changes you need to execute npm run preview again in the terminal.
 
 Click here for the entire code of EventPlanner.jsx component
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
+
  import React from 'react';
  import './EventPlanner.css'; // Import CSS file for styling
  import Footer from './Footer';
